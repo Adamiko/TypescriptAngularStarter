@@ -20,7 +20,7 @@ deploy:
     manifest: manifest.yml
     on:
       repo: 3IE/TypescriptAngularStarter
-      branch: develop
+      branch: feature/travis-testing
 
   - provider: cloudfoundry
     edge: true
